@@ -1,3 +1,5 @@
+![heroicon](assets/wallspotog.png)
+
 ## WallSpot
 Use **[Spotlight Windows 10](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#:~:text=Windows%20Spotlight%20is%20an%20option,desktop%20editions%20of%20Windows%2010.)** images as workspace (background) wallpaper. This Windows 10 app recover and save all images from this Windows feature to use as slideshow within Windows theme personalization.
 
