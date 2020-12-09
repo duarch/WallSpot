@@ -1,1 +1,109 @@
-# WallSpot
+## WallSpot
+Use **[Spotlight Windows 10](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#:~:text=Windows%20Spotlight%20is%20an%20option,desktop%20editions%20of%20Windows%2010.)** images as workspace (background) wallpaper. This Windows 10 app recover and save all images from this Windows feature to use as slideshow within Windows theme personalization.
+
+## Motivation
+When I start my computer at Login Screen or at Lock Screen I stare at some beautiful pictures and I wish I could use it as Wallpaper. But it is not easily available. Surfing on internet we can find some solutions, but all of them are complicated and takes too much time to accomplish. It motivated me to create a program to do this complete task automatically.
+
+## Tech/framework used
+
+**Built with:**
+
+* [Windows .theme file](https://docs.microsoft.com/en-us/windows/win32/controls/themesfileformat-overview)
+* [Pyistaller](http://www.pyinstaller.org)
+* [Python](https://www.python.org)
+
+## Features
+* Find Spotlight Images
+* Separate them from others images
+* Rename pictures with the date it loaded
+* Copy them to dedicated folder on Pictures
+* Easily available to use as slideshow
+* Simply delete the ones you don’t like
+* Comes with an initial stock of samples to you don’t start from zero
+* Not disturbing or modifying any system file
+* Avoid duplicate images
+* Everything with just one click
+
+
+## Code Example
+
+Some libraries used
+```
+import os
+import sys
+import hashlib
+import shutil
+from datetime import datetime
+from PIL import Image
+```
+An idea of some implametation
+```
+def main():
+    select_pics()
+    rename_pics()
+    move_pics()
+    hash_pics()
+    remove_pics()
+```
+
+
+## Installation
+Only unzip the folder WallSpot.zip
+
+## How to use?
+Simply execute the file WallSpot.exe and then choose Slideshow on Windows personalization.
+
+To get a desktop background (wallpaper), right-click on an empty space on workspace, then select *Personalize* it will open Settings Window on Background Options. Then follow these step just once:
+
+**Setting up a desktop slideshow**
+
+1. Using the "Background" drop-down menu, select the Slideshow option.
+2. Click the Browse button to select the folder *...\Pictures\wallspot* with the picture collection.
+3. Use the "Change picture every" drop-down menu and select how often images should rotate.
+4. (Optional) Turn on the Shuffle toggle switch to show images in random order.
+5. Using the "Choose a fit" drop-down menu, select the fit that best suits the images:
+    (Obs.: All imagens are available in 1920 X 1080 pixels)
+    * Fill. (Recommended)
+    * Fit.
+    * Stretch.
+    * Center.
+    * Span.
+
+
+## Credits
+**Thanks to:**
+
+- [David J. Malan](https://cs.harvard.edu/malan/)
+- [Brian Yu](https://brianyu.me/)
+- [CS50's staff](https://cs50.harvard.edu/college/2020/fall/staff/)
+- [My lovely wife for her patience](https://www.instagram.com/clicks_of_mylife/)
+- [pythoncentral.io](https://www.pythoncentral.io/finding-duplicate-files-with-python/)
+- [Programação Dinâmica - Youtube Channel](https://www.youtube.com/c/Programa%C3%A7%C3%A3oDin%C3%A2mica)(Portuguese)
+
+#### Anything else that seems useful
+Plan to future implamentations:
+- Add an icon on context menu
+- Auto add Windows Theme
+
+## License
+MIT License
+
+Copyright (c) 2020 Andre Duarte
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
