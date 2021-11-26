@@ -21,10 +21,10 @@ When I start my computer at Login Screen or at Lock Screen I stare at some beaut
 * Find Spotlight Images
 * Separate them from others images
 * Rename pictures with the date it loaded
-* Copy them to dedicated folder on Pictures `WallSpot`
+* Copy them to dedicated folder on `/Pictures/WallSpot`
 * Easily available to use as slideshow
 * Simply delete the ones you don’t like
-* Comes with an initial stock of samples to you don’t start from zero (Soon!)
+* Comes with an initial stock of samples to you don’t start from zero
 * Not disturbing or modifying any system file
 * Avoid duplicate images
 * Everything with just one click (Actually don't need even to click!)
@@ -52,6 +52,10 @@ To get a desktop background (wallpaper), right-click on an empty space on worksp
     * Stretch.
     * Center.
     * Span.
+
+## Initial Samples
+If you don't wan't to begin from "0" you can download some sample packs from [Google Drive WallSpot Vault](https://drive.google.com/drive/folders/119iPqPXfjNvandmJwMXryqtCixrfYeaP?usp=sharing). The program doesn't include any pictures. Each pack contains 100 files to make download easier. Eventually, packs receive new files updates.
+
 
 
 ## Credits
