@@ -18,7 +18,7 @@ When I start my computer at Login Screen or at Lock Screen I stare at some beaut
 * Find Spotlight Images
 * Separate them from others images
 * Rename pictures with the date it loaded
-* Copy them to dedicated folder on Pictures ´WallSpot´
+* Copy them to dedicated folder on Pictures `WallSpot`
 * Easily available to use as slideshow
 * Simply delete the ones you don’t like
 * Comes with an initial stock of samples to you don’t start from zero (Soon!)
@@ -28,7 +28,8 @@ When I start my computer at Login Screen or at Lock Screen I stare at some beaut
 
 
 ## Installation
-Only unzip the folder WallSpot.zip
+Pick your option here in [releases](https://github.com/duarch/WallSpot/releases)
+I recommend the installer option `WSsetup.exe`
 
 ## How to use?
 Simply execute the file WallSpot.exe and then choose Slideshow on Windows personalization.
