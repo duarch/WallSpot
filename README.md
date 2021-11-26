@@ -1,6 +1,9 @@
 ![heroicon](assets/wallspotog.png)
 
 ## WallSpot
+
+![CodeQL Status](https://img.shields.io/github/workflow/status/duarch/WallSpot/CodeQL?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/duarch/WallSpot?style=flat-square) ![GitHub](https://img.shields.io/github/license/duarch/WallSpot?style=flat-square)
+
 Use **[Spotlight Windows 10](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#:~:text=Windows%20Spotlight%20is%20an%20option,desktop%20editions%20of%20Windows%2010.)** images as workspace (background) wallpaper. This Windows 10 app recover and save all images from this Windows feature to use as slideshow within Windows theme personalization.
 
 ## Motivation
