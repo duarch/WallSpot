@@ -11,42 +11,20 @@ When I start my computer at Login Screen or at Lock Screen I stare at some beaut
 **Built with:**
 
 * [Windows .theme file](https://docs.microsoft.com/en-us/windows/win32/controls/themesfileformat-overview)
-* [Pyistaller](http://www.pyinstaller.org)
-* [Python](https://www.python.org)
+* [Inno Setup](https://jrsoftware.org/isinfo.php)
+* [Golang](https://go.dev/)
 
 ## Features
 * Find Spotlight Images
 * Separate them from others images
 * Rename pictures with the date it loaded
-* Copy them to dedicated folder on Pictures
+* Copy them to dedicated folder on Pictures ´WallSpot´
 * Easily available to use as slideshow
 * Simply delete the ones you don’t like
-* Comes with an initial stock of samples to you don’t start from zero
+* Comes with an initial stock of samples to you don’t start from zero (Soon!)
 * Not disturbing or modifying any system file
 * Avoid duplicate images
-* Everything with just one click
-
-
-## Code Example
-
-Some libraries used
-```
-import os
-import sys
-import hashlib
-import shutil
-from datetime import datetime
-from PIL import Image
-```
-An idea of some implametation
-```
-def main():
-    select_pics()
-    rename_pics()
-    move_pics()
-    hash_pics()
-    remove_pics()
-```
+* Everything with just one click (Actually don't need even to click!)
 
 
 ## Installation
