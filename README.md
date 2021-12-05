@@ -4,7 +4,7 @@
 
 ![CodeQL Status](https://img.shields.io/github/workflow/status/duarch/WallSpot/CodeQL?style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/duarch/WallSpot?style=flat-square) ![GitHub](https://img.shields.io/github/license/duarch/WallSpot?style=flat-square)
 
-Use **[Spotlight Windows 10](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#:~:text=Windows%20Spotlight%20is%20an%20option,desktop%20editions%20of%20Windows%2010.)** images as workspace (background) wallpaper. This Windows 10 app recover and save all images from this Windows feature to use as slideshow within Windows theme personalization.
+Use **[Windows Spotlight](https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#:~:text=Windows%20Spotlight%20is%20an%20option,desktop%20editions%20of%20Windows%2010.)** images as workspace (background) wallpaper. This Windows 10 app recover and save all images from this Windows feature to use as slideshow within Windows theme personalization.
 
 ## Motivation
 When I start my computer at Login Screen or at Lock Screen I stare at some beautiful pictures and I wish I could use it as Wallpaper. But it is not easily available. Surfing on internet we can find some solutions, but all of them are complicated and takes too much time to accomplish. It motivated me to create a program to do this complete task automatically.
