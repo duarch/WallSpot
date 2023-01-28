@@ -51,7 +51,7 @@ To get a desktop background (wallpaper), right-click on an empty space on worksp
     * Fit.
     * Stretch.
     * Center.
-    * Span.
+    * Span .
 
 ## Initial Samples
 If you don't wan't to begin from "0" you can download some sample packs from [Google Drive WallSpot Vault](https://drive.google.com/drive/folders/119iPqPXfjNvandmJwMXryqtCixrfYeaP?usp=sharing). The program doesn't include any pictures. Each pack contains 100 files to make download easier. Eventually, packs receive new files updates.
